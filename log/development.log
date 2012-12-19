@@ -36,3 +36,7 @@ Started GET "/" for 127.0.0.1 at 2012-12-19 14:01:53 -0500
   Processing by SessionsController#new as HTML
 Rendered sessions/new.html.erb within layouts/application (7.0ms)
 Completed 200 OK in 62ms (Views: 62.0ms)
+MongoDB logging. Please note that logging negatively impacts performance and should be disabled for high-performance production apps.
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:ismaster=>1})
+MONGODB admin['$cmd'].find({:buildinfo=>1})
